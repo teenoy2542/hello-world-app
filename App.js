@@ -6,7 +6,7 @@ export default function App() {
   const[color,setColor] = useState('red')
   return (
     <View style={styles.container}>
-      <Image source={{uri:"https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.0-9/13312795_591402087690172_4916392724253520910_n.jpg?_nc_cat=104&_nc_sid=8bfeb9&_nc_eui2=AeGqCptfdQDYnqqKSeJSkNmLPiv9QdbujIc-K_1B1u6Mh0uu-gpSjCdpqgIkBMqlMpwbmabOi-qvvG3Ck5a92Lbh&_nc_ohc=yk9YVcW3W0gAX-TxqSL&_nc_ht=scontent.fbkk12-2.fna&oh=a4d1e1e7b09a287d8ef64ee19c42ea4a&oe=5F89776B"}} style={styles.logo}></Image>
+      <Image source={{uri:"https://scontent.fbkk8-2.fna.fbcdn.net/v/t1.0-9/28660618_396856104059867_8851833168206670109_n.jpg?_nc_cat=107&_nc_sid=0debeb&_nc_eui2=AeHtiNIe0pIHTP7Vyy1nz7MeG1BC98Lyy7YbUEL3wvLLtkWiVilZf-AT8NZkf_gygDc0Yt_CUFU2HM-mUEwYUL5L&_nc_ohc=UxbqiPSevcYAX8r0amW&_nc_ht=scontent.fbkk8-2.fna&oh=99ec074265c454d3ff782b5b2e4ba117&oe=5F89A79B"}} style={styles.logo}></Image>
       <Text style={styles.title}>Hello world</Text>     
       <TextInput value={input} onChangeText={(text)=> {setInput(text)}} placeholder="I was an imposter" style={styles.input}></TextInput>
       <Text style={{fontSize:18, marginTop:20, color:color}}>{input}</Text>
